@@ -1,0 +1,48 @@
+##### Core scientific packages
+jupyter
+matplotlib>=3.0.0
+numpy
+pandas
+scipy
+
+##### Machine Learning packages
+scikit-learn>=0.20
+
+
+##### TensorFlow-related packages
+tensorflow>=2.0.0
+tensorboard>=2.0.0
+
+##### Reinforcement Learning library (chapter 18)
+
+# There are a few dependencies you need to install first, check out:
+# https://github.com/openai/gym#installing-everything
+#gym[atari]==0.17.3
+# On Windows, install atari_py using:
+# pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
+
+##### Image manipulation
+Pillow>=8.0.0
+graphviz
+
+##### Additional utilities
+
+
+
+# May be useful with Pandas for complex "where" clauses (e.g., Pandas
+numexpr>=2.5.0
+
+nltk>=3.0
+
+
+# Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
+tqdm>=4.0.0
+ipywidgets>=7.0.0
+
+
+
+# Specific lib versions to avoid conflicts
+attrs>=19.0.0
+cloudpickle
+dill>=0.3.0
+gast>=0.3.0
